@@ -1,0 +1,1 @@
+Get-ChildItem -File | Foreach { ffmpeg -i $_.name -vf "hflip,vflip" out/$_.name }
