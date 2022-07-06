@@ -1,0 +1,1 @@
+git branch --merged | Select-String -Pattern '^[^\*].*' | ForEach-Object { git branch -d $_.ToString().Trim() }

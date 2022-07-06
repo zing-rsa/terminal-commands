@@ -1,0 +1,1 @@
+echo 'ffmpeg -r 120 -i 2.mov -r 20 -vf scale="720:-2" 2_small.mp4'
