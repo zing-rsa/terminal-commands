@@ -5,6 +5,8 @@ if ($n -eq "vicitude"){
     Set-Location C:\users\kritz\documents\vicitude
 }elseif($n -eq "desktop"){
     Set-Location C:\users\kritz\desktop
+}elseif($n -eq "landing"){
+    Set-Location C:\users\kritz\documents\landing
 }elseif($n -eq "docs"){
     Set-Location C:\users\kritz\documents
 }elseif($n -eq "downloads"){
