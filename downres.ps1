@@ -4,4 +4,4 @@ param (
 )
 
 # downres to 720px width. height determined by original aspect ratio
-ffmpeg -i $i -filter:v scale=720:-1 $o
+ffmpeg -i $i -filter:v scale="720:trunc(ow/a/2)*2" $o
