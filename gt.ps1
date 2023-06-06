@@ -12,6 +12,7 @@ $locations = @{
     projects  = "C:\users\kritz\documents\Code_Projects"
     libfin    = "C:\users\kritz\documents\vicitude\LibfinRepos"
     temp      = "C:\users\kritz\desktop\temp"
+    commands  = "C:\terminal-commands"
 }
 
 if ($ls) {
