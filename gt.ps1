@@ -13,6 +13,7 @@ $locations = @{
     libfin    = "C:\users\kritz\documents\vicitude\LibfinRepos"
     temp      = "C:\users\kritz\desktop\temp"
     commands  = "C:\terminal-commands"
+    notes     = "C:\users\kritz\documents\zing-vault"
 }
 
 if ($ls) {

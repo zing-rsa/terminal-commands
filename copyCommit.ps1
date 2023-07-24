@@ -1,0 +1,1 @@
+git log --format="%H" -n 1 | Set-Clipboard
